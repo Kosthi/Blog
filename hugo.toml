@@ -1,6 +1,10 @@
-baseURL = "https://examplesite.com/"
+[module]
+[[module.imports]]
+  path = 'github.com/adityatelange/hugo-PaperMod'
+
+baseURL = "https://sutcoder.com/"
 languageCode = 'en-us'
-title = 'ExampleSite'
+title = "Koschei's Lab"
 paginate = 5
 theme = 'PaperMod'
 
